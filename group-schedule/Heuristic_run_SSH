@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd src/uncas/
+rm *.class
+
+cd ..
+javac -cp /usr/share/java/junit4.jar:. uncas/HeuristicsRunner.java
+java -cp .:/usr/share/java/junit4.jar:. org.junit.runner.JUnitCore uncas.HeuristicsRunner

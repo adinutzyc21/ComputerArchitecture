@@ -1,7 +1,5 @@
-ComputerArchitecture
-====================
-
-Washington University in St. Louis, Fall 2012
+README
+######
 
 
 Our code is executed using the HeuristicsRunner.java file, which is in src/uncas. 
